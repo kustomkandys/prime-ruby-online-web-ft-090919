@@ -5,5 +5,6 @@ def prime?(i)
     return true
   else (2..i/2).none? do |n|
     i % n == 0 
+  end 
   end
 end
