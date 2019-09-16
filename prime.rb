@@ -1,4 +1,5 @@
 def prime?(i)
+  if i > 1 
   if i%2 !=0 && i!=2
     puts true
   else
