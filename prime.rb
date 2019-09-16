@@ -1,4 +1,4 @@
-def prime(i)
+def prime?(i)
   unless i.is_a? Integer
   puts "That's not an integer."
   if i%2 !=0 && i!=2
