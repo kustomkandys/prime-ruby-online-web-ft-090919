@@ -3,8 +3,6 @@ def prime?(i)
     return false
   elsif i <= 3
     return true
-  elsif i%2 !=0 && i!=2
-    return true
   else
     return false
   end
