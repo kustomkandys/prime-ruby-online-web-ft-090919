@@ -4,6 +4,6 @@ def prime?(i)
   elsif i <= 3
     return true
   else (2..i/2).none? do |n|
-    i % n 
+    i % n == 0 
   end
 end
