@@ -1,6 +1,9 @@
-def prime?(integer)
-  if integer <= 1 
-    return false 
-  elsif integer <= 3
-    return true 
-  else (2..integer/2).none? do ||
+def prime?(i)
+  unless i.is_a? Integer
+  puts "That's not an integer."
+  if i%2 !=0 && i!=2
+    puts "true"
+  else
+    puts "false"
+  end
+end
