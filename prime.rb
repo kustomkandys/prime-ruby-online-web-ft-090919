@@ -1,2 +1,2 @@
 def prime?(integer)
-  i +=
+  if integer 
