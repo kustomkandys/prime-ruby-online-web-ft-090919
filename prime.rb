@@ -3,4 +3,4 @@ def prime?(integer)
     return false 
   elsif integer <= 3
     return true 
-  else (2..integer/2)
+  else (2..integer/2).none?
